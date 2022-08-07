@@ -1,0 +1,19 @@
+.BGtopOfWeek {
+    background-color: #fff;
+    background: url(../../assets/img/collection-torn-paper.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    height: 140px;
+    width: 100%;
+}
+
+.topOfWeek {
+    background-color: #f7f7f7;
+}
+
+.topOfWeek_buns {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}

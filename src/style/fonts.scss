@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Markella';
+    src: local('./fonts/Markella'), local('Markella'),
+      url('./fonts/Markella/Markella.woff2') format('woff2'),
+      url('./fonts/Markella/Markella.ttf') format('truetype');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('./fonts/Gilroy-Medium'), local('Gilroy-Medium'),
+      url('./fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+      url('./fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Light';
+    src: local('./fonts/Gilroy-Light'), local('Gilroy-Light'),
+      url('./fonts/Gilroy/Gilroy-Light.woff') format('woff'),
+      url('./fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+    font-style: normal;
+  }
+ 

@@ -1,0 +1,55 @@
+@import 'fonts';
+@import 'libs/normalize';
+@import 'variables';
+@import 'components/all';
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+body {
+    background-color: $black;
+    color: $white;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    & svg {
+        fill: #f7f7f7;
+    }
+
+    & span {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+}
+
+h2 {
+    color: black;
+    font-family: 'Markella';
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 20px;
+        background: url(../assets/img/wave.svg) 0 0 no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 25px;
+        left: 48%;
+    }
+}

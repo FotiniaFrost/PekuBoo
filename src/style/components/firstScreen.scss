@@ -1,0 +1,137 @@
+.firstScr {
+    position: relative;
+    margin-bottom: 50px;
+
+    &_text {
+        width: 35%;
+        margin-left: 23vw;
+        margin-top: 70px;
+
+    }
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.descr {
+    font-size: 16px;
+    margin: 20px 0 70px;
+    line-height: 27px;
+}
+
+//Slick-slider
+
+.mainSlider {
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 15px;
+    padding: 0 13px;
+
+
+    .slider__item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            height: 100px;
+        }
+
+        p {
+            font-family: 'Gilroy-Light';
+            margin-top: 10px;
+            width: 95%;
+        }
+
+        .slider__text {
+            text-align: left;
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }
+}
+
+.posAbsolute {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 30px;
+    right: 50px;
+
+    .slider__item {
+        img {
+            height: auto;
+            width: 100%;
+        }
+
+        .nutrition {
+            font-size: 10px;
+            font-family: 'Gilroy-Light';
+            position: absolute;
+            right: 20px;
+            top: 40%;
+
+            span {
+                float: right;
+                padding-left: 10px;
+            }
+
+            &::before {
+                content: '';
+                display: block;
+                height: 1px;
+                width: 30px;
+                background-color: $white;
+                position: absolute;
+                top: 5px;
+                left: -35px;
+
+            }
+        }
+
+    }
+}
+
+.slick-arrow {
+    width: 30px;
+    height: 30px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.slick-arrow svg {
+    fill: $white;
+    width: 10px;
+    height: 10px;
+
+}
+
+.slick-arrow:hover {
+    background-color: $yellow;
+    border: 1px solid $yellow;
+}
+
+.slick-arrow:hover svg {
+    fill: $black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: '';
+}
+
+.slick-prev {
+    left: -17px;
+}
+
+.slick-next {
+    right: -17px;
+}
+
+.socials {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

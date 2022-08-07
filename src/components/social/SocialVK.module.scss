@@ -1,0 +1,19 @@
+.VKlink {
+    display: block;
+    width: 38px;
+    height: 38px;
+    margin-bottom: 15px;
+}
+
+.VKSVG {
+    fill: #fff;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    &:hover {
+        fill: #f3c37a;
+        border: 2px solid #f3c37a;
+    }
+}

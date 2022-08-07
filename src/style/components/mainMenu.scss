@@ -1,0 +1,16 @@
+.mainMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+   & a{
+       color: $white;
+       text-transform: uppercase;
+       margin-right: 20px;
+       &:hover{
+           color: $yellow;
+       }
+       & active{
+        color: $yellow;
+    }
+   }
+}

@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.basket{
+    display: flex;
+    align-items: center;
+
+    & svg{
+        width: 35px;
+        fill:#f7f7f7;
+    }
+    
+}
+
+.basket_price{
+    font-size: 18px;
+    margin-left: 5px; 
+}

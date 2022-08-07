@@ -1,0 +1,23 @@
+.button {
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient($yellow, darken($yellow, 20%));
+    cursor: pointer;
+    transition: all 0.5s linear;
+
+    &:hover {
+        background: linear-gradient($yellow, darken($yellow, 40%));
+    }
+}
+
+.button__circle {
+    border-radius: 50px;
+    background: transparent;
+    color: $yellow;
+    border: 1px solid $yellow;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
